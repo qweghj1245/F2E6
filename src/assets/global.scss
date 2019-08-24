@@ -1,0 +1,20 @@
+$color-grey: #E8E8E8;
+$color-grey2: #AAAAAA;
+$color-grey3: #666666;
+$color-grey4: #E1E1E1;
+$color-black: #000000;
+$color-red: #FF0000;
+$color-white: #FFFFFF;
+$shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+$shadow-deeper: 0px 3px 6px rgba(0, 0, 0, .36);
+
+@mixin size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
